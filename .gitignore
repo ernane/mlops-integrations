@@ -167,3 +167,4 @@ lambda/.chalice/deployments
  *.pyc
 .vscode
 .idea/*
+.DS_Store
