@@ -37,7 +37,7 @@ estimator = PyTorch(
     entry_point="mnist.py",
     source_dir="code",
     role=role,
-    framework_version="1.11.0",
+    framework_version="1.4.0",
     instance_count=1,
     instance_type="ml.p3.2xlarge",
     # instance_type="ml.m4.xlarge",
@@ -45,7 +45,7 @@ estimator = PyTorch(
     # use_spot_instances=True,  # Use a spot instance
     # max_run=300,  # Max training time
     # max_wait=600,  # Max training time + spot waiting time
-    hyperparameters={"epochs": 14, "backend": "gloo"},
+    hyperparameters={"epochs": 20, "backend": "gloo"},
 )
 
 print(f"Training job name: {job_name}")
