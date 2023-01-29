@@ -17,6 +17,7 @@ sagemaker = "2.5.3"
 torch-vision = "0.1.6.dev0"
 torch = "1.4.0"
 wget = "3.2"
+chalice = "1.27.3"
 
 
 [tool.poetry.group.dev.dependencies]
