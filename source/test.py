@@ -18,6 +18,7 @@ IMAGE_URL = (
 )
 test_file = "test.jpg"
 wget.download(
+    IMAGE_URL,
     test_file,
 )
 
